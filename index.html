@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090d">
+  <meta name="description" content="Portfólio de Leo dos Guri — dev, Linux enthusiast e criador de projetos.">
+  <title>Leo dos Guri — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Leo dos Guri início"><span class="brand-mark">&gt;_</span><span>LEO<span class="muted">.DEV</span></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#about">sobre</a><a href="#projects">projetos</a><a href="#stack">stack</a>
+      <a class="nav-cta" href="https://guns.lol/leodosguri" target="_blank" rel="noreferrer">guns.lol ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> ONLINE · CURITIBA, BR</div>
+        <p class="kicker">DEV IN PROGRESS / INTERNET NATIVE</p>
+        <h1>Leo dos Guri<span class="accent">.</span><br><span class="outline">Building things</span><br>for fun<span class="accent">_</span></h1>
+        <p class="hero-description">Curioso por tecnologia, apaixonado por Linux e sempre inventando algum projeto novo. Código, customização e ideias que começam no terminal.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explorar projetos <span>↘</span></a>
+          <a class="button button-ghost" href="https://guns.lol/leodosguri" target="_blank" rel="noreferrer">Meu guns.lol ↗</a>
+        </div>
+        <div class="hero-meta"><span>01 — PORTFOLIO PESSOAL</span><span>FEITO COM HTML / CSS / JS</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Arte abstrata inspirada em terminal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="crosshair crosshair-a">+</div><div class="crosshair crosshair-b">+</div>
+        <div class="terminal-card">
+          <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>leo@dev:~</span><span class="terminal-lock">●</span></div>
+          <div class="terminal-body">
+            <p class="terminal-dim"># whoami</p>
+            <p><span class="term-green">leo</span>@<span class="term-red">dosguri</span></p>
+            <p class="terminal-dim"># interests --all</p>
+            <p><span class="term-blue">linux</span> · code · games</p>
+            <p><span class="term-blue">ui</span> · experiments · audio</p>
+            <p class="terminal-dim"># current_status</p>
+            <p class="typing-line"><span class="term-green">creating</span><span class="cursor">_</span></p>
+          </div>
+        </div>
+        <div class="floating-tag tag-top">[ SYSTEM: READY ]</div>
+        <div class="floating-tag tag-bottom"><span class="tag-icon">✳</span> ALWAYS LEARNING</div>
+        <div class="hero-index">L / 001</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>LINUX ENTHUSIAST</span><b>✳</b><span>DEVELOPER</span><b>✳</b><span>GAMER</span><b>✳</b><span>MAKER OF RANDOM STUFF</span><b>✳</b><span>LINUX ENTHUSIAST</span><b>✳</b><span>DEVELOPER</span><b>✳</b><span>GAMER</span><b>✳</b></div></div>
+
+    <section class="section about" id="about">
+      <div class="section-label reveal"><span>01 / SOBRE MIM</span><span class="label-line"></span></div>
+      <div class="about-grid">
+        <h2 class="reveal">Gosto de entender<br>como as coisas <span class="accent">funcionam.</span></h2>
+        <div class="about-text reveal">
+          <p>Sou o Leo — também conhecido como <strong>Leo dos Guri</strong> ou <strong>Lexxmax</strong>. Curto tecnologia, programação, jogos e deixar cada setup com a minha cara.</p>
+          <p>Gosto de testar sistemas Linux, mexer em interfaces e transformar ideias em projetos reais. Nem tudo começa perfeito; o importante é experimentar, aprender e melhorar a cada versão.</p>
+          <div class="mini-stats"><div><strong>∞</strong><span>ideias abertas</span></div><div><strong>24/7</strong><span>modo curioso</span></div><div><strong>0%</strong><span>vontade de usar setup padrão</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label reveal"><span>02 / PROJETOS & EXPERIMENTOS</span><span class="label-line"></span></div>
+      <div class="projects-heading reveal"><h2>Coisas que estou<br><span class="outline">construindo.</span></h2><p>Projetos pessoais, experiências e ideias em constante evolução.</p></div>
+      <div class="project-list">
+        <article class="project-card reveal">
+          <div class="project-number">01</div><div class="project-main"><div class="project-tags"><span>LANGUAGE</span><span>COMPILER</span></div><h3>NextGear</h3><p>Uma linguagem de programação própria, com sintaxe .gr e foco em transformar código em programas nativos.</p><div class="tech-list"><span>C</span><span>CLI</span><span>LLVM / Clang</span></div></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">02</div><div class="project-main"><div class="project-tags"><span>LINUX</span><span>DESKTOP</span></div><h3>Linux rice lab</h3><p>Customização de ambientes Linux: temas, terminais, launchers e setups com personalidade própria.</p><div class="tech-list"><span>Nobara</span><span>KDE</span><span>Kitty</span><span>Shell</span></div></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">03</div><div class="project-main"><div class="project-tags"><span>AI</span><span>VOICE ASSISTANT</span></div><h3>Personal Assistant</h3><p>Experimentos com um assistente pessoal para Windows, comandos por voz e automação de tarefas.</p><div class="tech-list"><span>Python</span><span>APIs</span><span>Automation</span></div></div><div class="project-arrow">↗</div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">04</div><div class="project-main"><div class="project-tags"><span>GAMING</span><span>MODDING</span></div><h3>Game experiments</h3><p>Mods, addons e experiências em jogos como Garry’s Mod — sempre testando ideias novas.</p><div class="tech-list"><span>Lua</span><span>GMod</span><span>Game UI</span></div></div><div class="project-arrow">↗</div>
+        </article>
+      </div>
+      <p class="project-note"><span class="accent">*</span> Alguns projetos são experimentais e podem estar em desenvolvimento.</p>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section-label reveal"><span>03 / TOOLKIT</span><span class="label-line"></span></div>
+      <div class="stack-grid">
+        <div class="stack-intro reveal"><h2>Meu <span class="accent">playground.</span></h2><p>Ferramentas e áreas que fazem parte das minhas explorações. A stack muda conforme o projeto.</p></div>
+        <div class="stack-items reveal">
+          <div class="stack-item"><span class="stack-icon">⌘</span><div><strong>Linux & Shell</strong><small>Linux · Bash · terminal</small></div><span class="stack-index">01</span></div>
+          <div class="stack-item"><span class="stack-icon">⟨/⟩</span><div><strong>Web</strong><small>HTML · CSS · JavaScript</small></div><span class="stack-index">02</span></div>
+          <div class="stack-item"><span class="stack-icon">λ</span><div><strong>Programming</strong><small>Python · C · Lua</small></div><span class="stack-index">03</span></div>
+          <div class="stack-item"><span class="stack-icon">◈</span><div><strong>Creative tech</strong><small>UI · themes · automation</small></div><span class="stack-index">04</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="section-label reveal"><span>04 / NEXT STEP</span><span class="label-line"></span></div>
+      <div class="contact-content reveal"><p class="kicker">YOU FOUND THE END</p><h2>Vamos ver o que<br><span class="outline">vem depois?</span></h2><p>Me encontra nos meus links e acompanha as próximas ideias.</p><a class="button button-primary" href="https://guns.lol/leodosguri" target="_blank" rel="noreferrer">Acessar meu guns.lol <span>↗</span></a></div>
+      <div class="contact-decoration">L<span>/</span>EO</div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">&gt;_</span><span>LEO<span class="muted">.DEV</span></span></a><span>DESIGNED & BUILT WITH CURIOSITY.</span><a href="#home">VOLTAR AO TOPO ↑</a><span class="copyright">© <span id="year"></span> LEO DOS GURI</span></footer>
+</body>
+</html>
